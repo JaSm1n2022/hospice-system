@@ -2,7 +2,7 @@ import SearchLookupTextField from "components/TextField/SearchLookUpTextField";
 import { useState } from "react";
 import StockRoomHandler from "./components/StockRoomHandler";
 import StockRoomViewTable from "./components/StockRoomViewTable";
-// test nvm use 14
+// test nvm use 14 version
 function StockRoomView() {
   const columns = StockRoomHandler.columns();
   const dataSource = StockRoomHandler.mapData(null);
